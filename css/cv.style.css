@@ -22,9 +22,11 @@ nav {
 	line-height: 70px;
 	background: rgba(0,0,0,.20);
 	position: fixed;
-	top: 0;
+    top: 0;
+    z-index: 9999;
 }
 nav h2 {
+    margin-top: 13px;
 	float: left;
 	font-size: 2em;
     margin-left: 15px;
@@ -39,13 +41,15 @@ nav ul li {
 	list-style: none;
 }
 nav ul li a {
-	text-decoration: none;
 	color: white;
-	padding: 25px;
+    padding: 25px;
+    text-decoration: none;
 }
 nav ul li a:hover {
+    text-decoration: none;
 	background: rgba(0,0,0,.20);
-	transition: all ease-in-out 0.45s;
+    transition: all ease-in-out 0.45s;
+    color: white;
 }
 /* #active {
 	background: rgba(0,0,0,.20);
@@ -253,12 +257,17 @@ nav ul li a:hover {
 }
 
 /* expertise selesai */
-
+.basic-info table {
+    margin-bottom: 30px;
+}
 .basic-info {
     padding: 80px 0;
 }
 .basic-info td {
     font-size: 14px;
+}
+.wrapper-education .education-list {
+    margin-bottom: 74px;
 }
 .wrapper-education .education-list .year {
     margin: 0 0 6px;
@@ -301,6 +310,86 @@ nav ul li a:hover {
     font-size: 15px;
     margin-top: 6px;
     float: right;
+}
+.basic-info .company-name {
+    display: flex;
+}
+.basic-info .second-company {
+    display: flex;
+}
+.basic-info .company-name img {
+    position: absolute;
+    bottom: 526px;
+    border-radius: 50%;
+    border: 4px solid white;
+    height: 73px;
+}
+.basic-info .company-name .circle  {
+    margin-left: 35px;
+    width: 500px;
+    height: 72px;
+    background-color: #e4e8ed;
+}
+.basic-info .company-name .circle p{
+    margin-left: 60px;
+    margin-top: 13px;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.basic-info .second-company img {
+    position: absolute;
+    bottom: 258px;
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid white;
+    height: 73px;
+}
+.basic-info .second-company .circle  {
+    margin-left: 35px;
+    width: 500px;
+    height: 72px;
+    background-color: #e4e8ed;
+}
+.basic-info .second-company .circle p{
+    margin-left: 60px;
+    margin-top: 13px;
+    font-size: 27px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.basic-info .company-detail {
+    margin-left: 35px;
+    width: 500px;
+    height: 180px;
+    background-color: red;
+}
+.basic-info .box {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+}
+.basic-info .box:hover, .basic-info .box p:hover {
+    background-color: gray;
+    color: white;
+}
+.basic-info .box p {
+    float: right;
+    font-size: 14px;
+}
+.basic-info .box-job {
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    background-color: white;
+}
+.basic-info .box-job:hover, .basic-info .box-job p:hover {
+    background-color: gray;
+    color: white;
+}
+.basic-info .box-job p {
+    float: right;
+    text-align: right;
+    font-size: 14px;
 }
 
 
