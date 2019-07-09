@@ -1,12 +1,20 @@
-(function ($) {
-    "use strict";
+$(document).ready(function () {
+    $("nav.menu > ul > li > a").click(function (event) {
+        event.preventDefault()
 
-    $(document).ready(function () {
-        $("#p1").mouseenter(function () {
-            alert("You entered p1!");
-            // $("div").addClass("important");
-        });
+        $.each($("nav.menu > ul > li > a"), function(i, v){ 
+            $(this).removeClass("active")
+        })
+        $(this).addClass("active")
+
+        var hash = this.hash
+
+        $("html").animate({
+            scrollTop: $(hash).offset().top
+        }, 1000, function(){
+            window.location.hash = hash
+        })
     });
 
-})(jQuery);
 
+});
