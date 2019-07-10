@@ -278,7 +278,7 @@ nav ul li a.active {
 .wrapper-education .education-list .block {
     width: 330px;
     height: 45px;
-    background-color: #e4e8ed;
+    background-color: #e6edf5;
 }
 .wrapper-education .education-list .institution {
     font-size: 22px;
@@ -364,12 +364,6 @@ nav ul li a.active {
     height: 180px;
     background-color: red;
 }
-.basic-info .box {
-    width: 500px;
-    height: 40px;
-    padding: 10px;
-    background-color: white;
-}
 @keyframes smoothHover {
     from {
         background-color: white;
@@ -380,7 +374,13 @@ nav ul li a.active {
         color: white;
     }
 }
-.basic-info .box:hover{
+.basic-info .box {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+}
+.basic-info .box:hover {
     transition: background 500ms;
     animation-name: smoothHover;
     animation-duration: 500ms;
@@ -398,7 +398,11 @@ nav ul li a.active {
     padding: 10px;
     background-color: white;
 }
-.basic-info .box-job:hover, .basic-info .box-job p:hover {
+.basic-info .box-job:hover {
+    transition: background 500ms;
+    animation-name: smoothHover;
+    animation-duration: 500ms;
+
     background-color: gray;
     color: white;
 }
@@ -408,8 +412,68 @@ nav ul li a.active {
     font-size: 14px;
 }
 
-
 /* basic info selesai */
+
+footer {
+    background-color: #99a1ad;
+    padding: 50px;
+}
+
+footer h5 {
+    font-family: Georgia;
+    font-size: 41px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.15;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+footer .order {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+footer .order .inputan {
+    width: 300px;
+    font-size: 15px;
+}
+
+footer .tombol {
+    position: relative;
+    left: -40px;
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 80px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
 /* .educations .education-card:nth-child(even){
     color: red;
 }
