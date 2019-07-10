@@ -263,12 +263,12 @@ nav ul li a.active {
     margin-bottom: 30px;
 }
 .basic-info {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 .basic-info td {
     font-size: 14px;
 }
-.wrapper-education .education-list {
+.wrapper-education .education-mb {
     margin-bottom: 74px;
 }
 .wrapper-education .education-list .year {
