@@ -58,7 +58,7 @@ nav ul li a.active {
 /* navbar selesai */
 .opening {
     background-image: url('../image/email-pattern.png');
-    height: 100vh;
+    height: 665px;
 }
 
 .text {
@@ -87,10 +87,6 @@ nav ul li a.active {
 
 .about-content {
     display: flex;
-}
-
-.about .image-profil {
-    width: 350px;
 }
 
 .about .image-profil img {
@@ -254,9 +250,6 @@ nav ul li a.active {
 .expertise .profile:hover .profile {
 	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
 }
-.fa-size {
-    font-size: 10px;
-}
 
 /* expertise selesai */
 .basic-info table {
@@ -321,14 +314,14 @@ nav ul li a.active {
 }
 .basic-info .company-name img {
     position: absolute;
-    bottom: 526px;
+    bottom: 468px;
     border-radius: 50%;
     border: 4px solid white;
     height: 73px;
 }
-.basic-info .company-name .circle  {
+.basic-info .circle  {
     margin-left: 35px;
-    width: 500px;
+    width: 100%;
     height: 72px;
     background-color: #e4e8ed;
 }
@@ -340,17 +333,11 @@ nav ul li a.active {
 }
 .basic-info .second-company img {
     position: absolute;
-    bottom: 258px;
+    bottom: 200px;
     border-radius: 50%;
     background-color: white;
     border: 4px solid white;
     height: 73px;
-}
-.basic-info .second-company .circle  {
-    margin-left: 35px;
-    width: 500px;
-    height: 72px;
-    background-color: #e4e8ed;
 }
 .basic-info .second-company .circle p{
     margin-left: 60px;
@@ -360,9 +347,9 @@ nav ul li a.active {
 }
 .basic-info .company-detail {
     margin-left: 35px;
-    width: 500px;
+    width: 93.6%;
     height: 180px;
-    background-color: red;
+    background-color: white;
 }
 @keyframes smoothHover {
     from {
@@ -375,7 +362,7 @@ nav ul li a.active {
     }
 }
 .basic-info .box {
-    width: 500px;
+    width: 100%;
     height: 40px;
     padding: 10px;
     background-color: white;
@@ -393,7 +380,7 @@ nav ul li a.active {
     font-size: 14px;
 }
 .basic-info .box-job {
-    width: 500px;
+    width: 100%;
     height: 60px;
     padding: 10px;
     background-color: white;
@@ -481,3 +468,107 @@ footer .tombol {
 .educations .education-card:nth-child(odd){
     color: blue;
 } */
+
+/* IKI GAWE RESPONSIVE */   
+@media (max-width: 1199px) {
+    .opening {
+        height: 600px;
+    }
+    .basic-info .company-detail {
+        width: 415px;
+    }
+    .basic-info .company-name img {
+        bottom: 490px;
+    }
+    .basic-info .second-company img {
+        bottom: 223px;   
+    }
+}
+@media (max-width: 991px) {
+    .about .image-profil {
+        text-align: center;
+    }
+    .about .about-text {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .about .about-text .footer-sosmed {
+        justify-content: center;
+    }
+    .basic-info .company-detail {
+        width: 94.9%;
+    }
+    .basic-info .company-name img {
+        bottom: 447px;
+    }
+    .basic-info .second-company img {
+        bottom: 179px;   
+    }
+}
+@media (max-width: 575px) {
+    .opening {
+        height: 100vh;
+    }
+    .text {
+        padding: 250px 40px 0;
+    }
+    .text h5 {
+        font-size: 45px;
+    }
+    .text h1 {
+        font-size: 38px;
+    }
+    .about .image-profil img {
+        width: 270px;
+    }
+    .about .about-text {
+        padding: 0 30px;
+    }
+    .expertise {
+        padding: 50px 0 0;
+    }
+    .expertise .header {
+        height: 230px;
+    }
+    .expertise .profile {
+        width: 90px;
+        height: 140px;
+    }
+    .expertise .profile-icon {
+        font-size: 50px;
+        margin: 20px auto;
+        width: 50px;
+        height: 50px;
+    }
+    .expertise .name {
+        font-size: 1em;
+    }
+    .expertise .profile:hover {
+        height: 180px;
+    }
+    .expertise .profile:hover .name {
+        padding-top: 50px;
+    }
+    .basic-info .company-name img {
+        bottom: 455px;
+    }
+    .basic-info .second-company img {
+        bottom: 187px;   
+    }
+    .basic-info .box {
+        width: 95.7%;
+    }
+    .basic-info .box-job {
+        width: 95.7%;
+    }
+    .wrapper-education .education-mb {
+        margin-bottom: 30px;
+    }
+    footer .order .inputan {
+        width: 200px;
+        margin-left: 30px;
+    }
+    footer .tombol {
+        width: 100px;
+    }
+}
