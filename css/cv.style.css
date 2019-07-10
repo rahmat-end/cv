@@ -1,7 +1,7 @@
 body {
 	font-family: 'Raleway', sans-serif;
 }
-/* * {
+/*{
 	padding: 0;
 	margin: 0;
 }
@@ -505,6 +505,52 @@ footer .tombol {
         bottom: 179px;   
     }
 }
+@media (max-width: 767px) {
+    nav {
+        height: 43px;
+        line-height: 43px;
+    }
+    nav h2 {
+        margin-top: 4px;
+        font-size: 1.7em;
+    }
+    nav ul li a {
+        padding: 12px;
+    }
+    .opening {
+        height: 100vh;
+    }
+    .text {
+        padding: 110px 0;
+    }
+    .text h5 {
+        font-size: 45px;
+    }
+    .text h1 {
+        font-size: 38px;
+    }
+    .about .image-profil img {
+        width: 250px;
+    }
+    .about .about-text {
+        padding: 0 30px;
+    }
+    .basic-info .box {
+        width: 98.1%;
+    }
+    .basic-info .box-job {
+        width: 98.1%;
+    }
+    .basic-info .company-name img {
+        bottom: 455px;
+    }
+    .basic-info .second-company img {
+        bottom: 187px;   
+    }
+    .wrapper-education .education-mb {
+        margin-bottom: 30px;
+    }
+}
 @media (max-width: 575px) {
     .opening {
         height: 100vh;
@@ -519,7 +565,7 @@ footer .tombol {
         font-size: 38px;
     }
     .about .image-profil img {
-        width: 270px;
+        width: 250px;
     }
     .about .about-text {
         padding: 0 30px;
@@ -549,6 +595,9 @@ footer .tombol {
     .expertise .profile:hover .name {
         padding-top: 50px;
     }
+    .basic-info .company-detail {
+        margin-left: 34px;
+    }
     .basic-info .company-name img {
         bottom: 455px;
     }
@@ -556,13 +605,16 @@ footer .tombol {
         bottom: 187px;   
     }
     .basic-info .box {
-        width: 95.7%;
+        width: 96%;
     }
     .basic-info .box-job {
-        width: 95.7%;
+        width: 96%;
     }
     .wrapper-education .education-mb {
         margin-bottom: 30px;
+    }
+    .wrapper-education .education-list .paragraph-reverse {
+        text-align: right;
     }
     footer .order .inputan {
         width: 200px;
@@ -571,4 +623,65 @@ footer .tombol {
     footer .tombol {
         width: 100px;
     }
+}
+@media (max-width: 380px) {
+    .text {
+        padding: 205px 40px 0;
+    }
+    .text h5 {
+        font-size: 42px;
+    }
+    .text h1 {
+        font-size: 32px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .about .about-text h6 {
+        font-size: 32px;
+    }
+    .about .about-text h5 {
+        font-size: 27px;
+        line-height: 1.5;
+    }
+    .about .image-profil img {
+        width: 200px;
+    }
+    .expertise .profile {
+        width: 80px;
+        height: 110px;
+    }
+    .expertise .profile-icon {
+        font-size: 40px;
+        margin: 15px auto 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .expertise .name {
+        font-size: 0.8em;
+    }
+    .expertise .profile:hover {
+        height: 150px;
+    }
+    .basic-info .company-detail {
+        margin-left: 32px;
+    }
+    .basic-info .box {
+        width: 95.3%;
+    }
+    .basic-info .box-job {
+        width: 95.3%;
+    }
+    footer {
+        padding: 40px 10px;
+    }
+    footer .order .inputan {
+        width: 210px;
+    }
+    footer .tombol {
+        width: 75px;
+    }
+}
+@media (max-width: 320px) {
+
 }
