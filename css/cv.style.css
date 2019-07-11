@@ -81,8 +81,7 @@ nav ul li a.active {
 }
 
 .about {
-    margin: 80px 0;
-    padding-top: 100px;
+    margin: 40px 0;
 }
 
 .about-content {
@@ -314,7 +313,7 @@ nav ul li a.active {
 }
 .basic-info .company-name img {
     position: absolute;
-    bottom: 468px;
+    bottom: 454px;
     border-radius: 50%;
     border: 4px solid white;
     height: 73px;
@@ -333,7 +332,7 @@ nav ul li a.active {
 }
 .basic-info .second-company img {
     position: absolute;
-    bottom: 200px;
+    bottom: 186px;
     border-radius: 50%;
     background-color: white;
     border: 4px solid white;
@@ -429,6 +428,7 @@ footer p {
     text-align: center;
     color: #ffffff;
     margin-top: 15px;
+    padding: 0 350px;
 }
 
 footer .order {
@@ -478,10 +478,13 @@ footer .tombol {
         width: 415px;
     }
     .basic-info .company-name img {
-        bottom: 490px;
+        bottom: 476px;
     }
     .basic-info .second-company img {
-        bottom: 223px;   
+        bottom: 209px;   
+    }
+    footer p {
+        padding: 0 230px;
     }
 }
 @media (max-width: 991px) {
@@ -503,6 +506,9 @@ footer .tombol {
     }
     .basic-info .second-company img {
         bottom: 179px;   
+    }
+    footer p {
+        padding: 0 110px;
     }
 }
 @media (max-width: 767px) {
@@ -627,6 +633,9 @@ footer .tombol {
     .wrapper-education .education-list .paragraph-reverse {
         text-align: right;
     }
+    footer p {
+        padding: 0 0px;
+    }
     footer .order .inputan {
         width: 200px;
         margin-left: 30px;
@@ -711,16 +720,29 @@ footer .tombol {
     }
 }
 @media (max-width: 320px) {
-
+    .text {
+        padding: 165px 20px 0;
+    }
+    .text h5 {
+        font-size: 40px;
+    }
+    .expertise .profile {
+        width: 70px;
+    }
+    .expertise .name {
+        font-size: 0.7em;
+    }
     .basic-info .circle  {
         margin-left: 35px;
         height: 50px;
     }
     .basic-info .company-name .circle p {
-        margin-top: 8px;
+        font-size: 20px;
+        margin-top: 9.5px;
     }
     .basic-info .second-company .circle p {
-        margin-top: 8px;
+        font-size: 20px;
+        margin-top: 9.5px;
     }
     .basic-info .company-name img {
         bottom: 600px;
