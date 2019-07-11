@@ -570,6 +570,9 @@ footer .tombol {
     .about .about-text {
         padding: 0 30px;
     }
+    .title h6 {
+        font-size: 27px;
+    }
     .expertise {
         padding: 50px 0 0;
     }
@@ -612,6 +615,14 @@ footer .tombol {
     }
     .wrapper-education .education-mb {
         margin-bottom: 30px;
+    }
+    .wrapper-education .education-list .institution {
+        font-size: 18px;
+        padding: 12.5px;
+    }
+    .wrapper-education .education-list .institution-reverse {
+        font-size: 18px;
+        padding: 12.5px;
     }
     .wrapper-education .education-list .paragraph-reverse {
         text-align: right;
@@ -663,6 +674,14 @@ footer .tombol {
     .expertise .profile:hover {
         height: 150px;
     }
+    .basic-info .company-name .circle p {
+        font-size: 23px;
+        margin-top: 18px;
+    }
+    .basic-info .second-company .circle p {
+        font-size: 23px;
+        margin-top: 18px;
+    }
     .basic-info .company-detail {
         margin-left: 32px;
     }
@@ -672,8 +691,17 @@ footer .tombol {
     .basic-info .box-job {
         width: 95.3%;
     }
+    .wrapper-education .education-list .block {
+        width: 280px;
+    }
+    .wrapper-education .education-list .block-reverse {
+        width: 280px;
+    }
     footer {
         padding: 40px 10px;
+    }
+    footer h5 {
+        font-size: 35px;
     }
     footer .order .inputan {
         width: 210px;
@@ -684,4 +712,57 @@ footer .tombol {
 }
 @media (max-width: 320px) {
 
+    .basic-info .circle  {
+        margin-left: 35px;
+        height: 50px;
+    }
+    .basic-info .company-name .circle p {
+        margin-top: 8px;
+    }
+    .basic-info .second-company .circle p {
+        margin-top: 8px;
+    }
+    .basic-info .company-name img {
+        bottom: 600px;
+        width: 70px;
+        height: 70px;
+    }
+    .basic-info .second-company img {
+        bottom: 270px;   
+        width: 70px;
+        height: 70px;
+    }
+    .basic-info .company-detail {
+        margin-left: 28px;
+        margin-bottom: 100px;
+    }
+    .basic-info .box {
+        height: 60px;
+    }
+    .basic-info .box p {
+        text-align: right;
+    }
+    .basic-info .box-job {
+        height: 80px;
+    }
+    .wrapper-education .education-list .block {
+        width: 228px;
+    }
+    .wrapper-education .education-list .block-reverse {
+        width: 228px;
+    }
+    .wrapper-education .education-list .institution {
+        font-size: 15px;
+        padding: 13px;
+    }
+    .wrapper-education .education-list .institution-reverse {
+        font-size: 15px;
+        padding: 13px;
+    }
+    footer {
+        padding: 25px 10px;
+    }
+    footer h5 {
+        font-size: 30px;
+    }
 }
