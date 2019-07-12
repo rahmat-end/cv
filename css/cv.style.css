@@ -488,8 +488,20 @@ footer .tombol {
     }
 }
 @media (max-width: 991px) {
+    .opening {
+        height: 375px;
+    }
+    .text {
+        padding: 105px 100px;
+    }
+    .text h1 {
+        font-size: 50px;
+    }
     .about .image-profil {
         text-align: center;
+    }
+    .about .image-profil img {
+        width: 250px;
     }
     .about .about-text {
         margin-top: 50px;
@@ -507,11 +519,17 @@ footer .tombol {
     .basic-info .second-company img {
         bottom: 179px;   
     }
+    footer {
+        padding: 35px 50px;
+    }
     footer p {
         padding: 0 110px;
     }
 }
 @media (max-width: 767px) {
+    .opening .text {
+        padding: 110px 130px;
+    }
     nav {
         height: 43px;
         line-height: 43px;
@@ -556,13 +574,22 @@ footer .tombol {
     .wrapper-education .education-mb {
         margin-bottom: 30px;
     }
+    footer {
+        padding: 25px 50px;
+    }
+    footer .order {
+        margin-top: 10px;
+    }
+    footer .tombol {
+        width: 70px;
+    }
 }
 @media (max-width: 575px) {
     .opening {
-        height: 100vh;
+        height: 320px;
     }
-    .text {
-        padding: 250px 40px 0;
+    .opening .text {
+        padding: 75px 40px 0;
     }
     .text h5 {
         font-size: 45px;
@@ -571,7 +598,7 @@ footer .tombol {
         font-size: 38px;
     }
     .about .image-profil img {
-        width: 250px;
+        width: 230px;
     }
     .about .about-text {
         padding: 0 30px;
@@ -633,20 +660,23 @@ footer .tombol {
     .wrapper-education .education-list .paragraph-reverse {
         text-align: right;
     }
+    footer {
+        padding: 15px 50px;
+    }
     footer p {
-        padding: 0 0px;
+        padding: 0 15px;
     }
     footer .order .inputan {
-        width: 200px;
+        width: 250px;
         margin-left: 30px;
     }
     footer .tombol {
-        width: 100px;
+        width: 70px;
     }
 }
 @media (max-width: 380px) {
-    .text {
-        padding: 205px 40px 0;
+    .opening .text {
+        padding: 80px 40px 0;
     }
     .text h5 {
         font-size: 42px;
@@ -707,7 +737,7 @@ footer .tombol {
         width: 280px;
     }
     footer {
-        padding: 40px 10px;
+        padding: 20px 10px;
     }
     footer h5 {
         font-size: 35px;
@@ -720,8 +750,8 @@ footer .tombol {
     }
 }
 @media (max-width: 320px) {
-    .text {
-        padding: 165px 20px 0;
+    .opening .text {
+        padding: 83px 20px 0;
     }
     .text h5 {
         font-size: 40px;
@@ -768,10 +798,10 @@ footer .tombol {
         height: 80px;
     }
     .wrapper-education .education-list .block {
-        width: 228px;
+        width: 240px;
     }
     .wrapper-education .education-list .block-reverse {
-        width: 228px;
+        width: 240px;
     }
     .wrapper-education .education-list .institution {
         font-size: 15px;
