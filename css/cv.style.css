@@ -660,6 +660,12 @@ footer .tombol {
     .wrapper-education .education-list .paragraph-reverse {
         text-align: right;
     }
+    .wrapper-education .education-list .block {
+        width: 350px;
+    }
+    .wrapper-education .education-list .block-reverse {
+        width: 350px;
+    }
     footer {
         padding: 15px 50px;
     }
@@ -731,10 +737,10 @@ footer .tombol {
         width: 95.3%;
     }
     .wrapper-education .education-list .block {
-        width: 280px;
+        width: 320px;
     }
     .wrapper-education .education-list .block-reverse {
-        width: 280px;
+        width: 320px;
     }
     footer {
         padding: 20px 10px;
