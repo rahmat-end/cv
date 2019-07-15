@@ -16,15 +16,27 @@
 
 <body>
     <nav class="menu">
+        <h1 id="triggerOpen">&#9776;</h1>
         <h2>Curriculum Vitae</h2>
         <ul>
-            <li><a href="#home" id="satu">Home</a></li>
-            <li><a href="#about" id="dua" class="active">About</a></li>
-            <li><a href="#expertise" id="tiga">Expertise</a></li>
-            <li><a href="#basic" id="empat">Basic Info</a></li>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#basic">Basic Info</a></li>
             <li><a href="#footer">Footer</a></li>
         </ul>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" id="triggerClose">&times;</a>
+            <div class="overlay-content">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#expertise">Expertise</a>
+                <a href="#basic">Basic Info</a>
+                <a href="#footer">Footer</a>
+            </div>
+        </div>
     </nav>
+    <!-- <span style="font-size:30px;cursor:pointer" id="triggerOpen">&#9776; Curriculum Vitae</span> -->
     <div class="opening" id="home">
         <div class="text">
             <h5>Hello! i'm</h5>
@@ -113,7 +125,8 @@
                                 </tr>
                                 <tr>
                                     <td style="padding-top: 43px">ADDRESS</td>
-                                    <td style="line-height: 2;">Jl. Kompas Gg. Kembang, Kec. Ciputat Timur, Kota Tangerang Selatan, Provinsi
+                                    <td style="line-height: 2;">Jl. Kompas Gg. Kembang, Kec. Ciputat Timur, Kota
+                                        Tangerang Selatan, Provinsi
                                         Banten
                                         15412</td>
                                 </tr>
@@ -236,8 +249,10 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
 </body>
 
 </html>
